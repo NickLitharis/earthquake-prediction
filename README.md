@@ -9,8 +9,13 @@ Before running the project, ensure you have the following Python libraries insta
 ```bash
 pip install pandas numpy matplotlib geopy scikit-learn
 ```
+or by using the __requirements.txt__ file:
 
-## Project Structure
+```bash
+pip install -r requirements.txt
+```
+
+## Project Pipeline
 
 The project is organized into several Python functions:
 
@@ -18,13 +23,21 @@ The project is organized into several Python functions:
 
 2. `plot_avg_magnitude_by_year()`: Plots the average magnitude of earthquakes per year.
 
+![Average Magnitude by Year](images/avg_mag_year.png)
+
 3. `plot_avg_magnitude_by_decade()`: Plots the average magnitude of earthquakes per decade.
 
-4. `top_strongest_earthquakes()`: Prints the top 10 strongest earthquakes based on magnitude.
+
+![Average Magnitude by Decade](images/avg_mag_dec.png)
+
+
+4. `top_strongest_earthquakes()`: Prints the top N strongest earthquakes based on magnitude.
 
 5. `top_seismogenic_places()`: Prints the top N seismogenic places based on the number of earthquakes.
 
 6. `plot_magnitude_percentage_data()`: Plots the percentage distribution of earthquake magnitudes.
+
+![Magnitude Percentage Distribution](images/mag_percentage.png)
 
 Additionally, the script includes the training and evaluation of a random forest model on earthquake data.
 
