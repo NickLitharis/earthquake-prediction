@@ -2,7 +2,7 @@
 
 Seismic data analysis and magnitude prediction using machine learning. Built as part of the **Big Data** course at Ionian University.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.5%2B-150458?logo=pandas)
 ![Scikit-learn](https://img.shields.io/badge/Scikit_learn-1.2%2B-F7931E?logo=scikit-learn)
 
@@ -39,7 +39,7 @@ Random Forest and Decision Tree were also evaluated; only the winning model's sc
 ```bash
 git clone https://github.com/NickLitharis/earthquake-prediction
 cd earthquake-prediction
-pip install -r requirements.txt
+uv sync
 ```
 
 Open `final-earthquake.ipynb` in Jupyter and run all cells.

@@ -1,0 +1,18 @@
+[project]
+name = "earthquake-prediction"
+version = "0.1.0"
+description = "Earthquake magnitude prediction in Scikit-learn - 251,000 records, three regression models compared"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "geopy>=2.4.1",
+    "matplotlib>=3.9.0",
+    "numpy>=1.26.4",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+]
+
+# Notebook project, not a distributable package.
+[tool.uv]
+package = false
