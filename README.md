@@ -19,13 +19,9 @@ Seismic data analysis and magnitude prediction using machine learning. Built as 
 
 ## Models Compared
 
-| Model | MAE | MSE | R² |
-|---|---|---|---|
-| Random Forest | — | — | — |
-| Decision Tree | — | — | — |
-| **Gradient Boosting** | **0.32** | **0.18** | **0.86** |
+Three regression models were trained and compared. **Gradient Boosting performed best**: MAE 0.32, MSE 0.18, R² 0.86.
 
-Gradient Boosting achieved the best performance with an R² of 0.86.
+Random Forest and Decision Tree were also evaluated; only the winning model's scores are reported here.
 
 ---
 
